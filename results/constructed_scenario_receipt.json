@@ -1,0 +1,190 @@
+{
+  "continuity_bridge": {
+    "drift_cases": 220,
+    "explicit_clicks": 126,
+    "fallback_use": 150,
+    "head_use": 709,
+    "held": 141,
+    "overcurrent_cases": 73,
+    "safe": 1000,
+    "stop_cases": 52
+  },
+  "evidence_type": "software_state_machine_in_constructed_scenarios",
+  "hardware_actuations": 0,
+  "human_trials": 0,
+  "modular_servo": {
+    "backup_routes": 126,
+    "dual_route_recovers": 126,
+    "held_or_denied": 248,
+    "overcurrent_faults": 68,
+    "primary_routes": 626,
+    "safe": 1000,
+    "single_route_would_hold": 151
+  },
+  "original_argon_source": "OPENLINE_REALITY_GROUNDED_FRONTIER_INVENTION_001_PACKAGE.zip",
+  "per_device_cases": 1000,
+  "physical_trials": 0,
+  "seed": 20261117,
+  "tremor_feasibility": {
+    "frequency_sweep": [
+      {
+        "f_hz": 3.0,
+        "response_ratio": 1.257
+      },
+      {
+        "f_hz": 3.25,
+        "response_ratio": 1.403
+      },
+      {
+        "f_hz": 3.5,
+        "response_ratio": 1.695
+      },
+      {
+        "f_hz": 3.75,
+        "response_ratio": 2.453
+      },
+      {
+        "f_hz": 4.0,
+        "response_ratio": 4.588
+      },
+      {
+        "f_hz": 4.25,
+        "response_ratio": 1.723
+      },
+      {
+        "f_hz": 4.5,
+        "response_ratio": 0.686
+      },
+      {
+        "f_hz": 4.75,
+        "response_ratio": 0.375
+      },
+      {
+        "f_hz": 5.0,
+        "response_ratio": 0.294
+      },
+      {
+        "f_hz": 5.25,
+        "response_ratio": 0.351
+      },
+      {
+        "f_hz": 5.5,
+        "response_ratio": 0.537
+      },
+      {
+        "f_hz": 5.75,
+        "response_ratio": 0.892
+      },
+      {
+        "f_hz": 6.0,
+        "response_ratio": 1.435
+      },
+      {
+        "f_hz": 6.25,
+        "response_ratio": 1.902
+      },
+      {
+        "f_hz": 6.5,
+        "response_ratio": 1.943
+      },
+      {
+        "f_hz": 6.75,
+        "response_ratio": 1.774
+      },
+      {
+        "f_hz": 7.0,
+        "response_ratio": 1.61
+      },
+      {
+        "f_hz": 7.25,
+        "response_ratio": 1.486
+      },
+      {
+        "f_hz": 7.5,
+        "response_ratio": 1.395
+      },
+      {
+        "f_hz": 7.75,
+        "response_ratio": 1.329
+      },
+      {
+        "f_hz": 8.0,
+        "response_ratio": 1.279
+      },
+      {
+        "f_hz": 8.25,
+        "response_ratio": 1.24
+      },
+      {
+        "f_hz": 8.5,
+        "response_ratio": 1.209
+      },
+      {
+        "f_hz": 8.75,
+        "response_ratio": 1.184
+      },
+      {
+        "f_hz": 9.0,
+        "response_ratio": 1.164
+      },
+      {
+        "f_hz": 9.25,
+        "response_ratio": 1.147
+      },
+      {
+        "f_hz": 9.5,
+        "response_ratio": 1.133
+      },
+      {
+        "f_hz": 9.75,
+        "response_ratio": 1.121
+      },
+      {
+        "f_hz": 10.0,
+        "response_ratio": 1.11
+      },
+      {
+        "f_hz": 10.25,
+        "response_ratio": 1.101
+      },
+      {
+        "f_hz": 10.5,
+        "response_ratio": 1.093
+      },
+      {
+        "f_hz": 10.75,
+        "response_ratio": 1.087
+      },
+      {
+        "f_hz": 11.0,
+        "response_ratio": 1.08
+      },
+      {
+        "f_hz": 11.25,
+        "response_ratio": 1.075
+      },
+      {
+        "f_hz": 11.5,
+        "response_ratio": 1.07
+      },
+      {
+        "f_hz": 11.75,
+        "response_ratio": 1.066
+      },
+      {
+        "f_hz": 12.0,
+        "response_ratio": 1.062
+      }
+    ],
+    "improved_bins": 6,
+    "linear_model_only": true,
+    "response_at_5_hz": 0.294,
+    "tuned_frequency_hz": 5.0,
+    "tuned_mass_ratio": 0.2,
+    "worsened_bins": 31,
+    "worst_amplification": {
+      "f_hz": 4.0,
+      "response_ratio": 4.588
+    }
+  }
+}

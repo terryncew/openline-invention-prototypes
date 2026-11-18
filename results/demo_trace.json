@@ -1,0 +1,49 @@
+{
+  "continuity_initial": {
+    "dx": 0.5,
+    "dy": 0.2,
+    "click_requested": false,
+    "drag_requested": true,
+    "channel": "HEAD",
+    "witness": "CONSISTENT_WITH_MODEL",
+    "stopped": false,
+    "epoch": 0,
+    "output_class": "DRY_RUN_PROPOSED_HID_ONLY"
+  },
+  "continuity_fallback": {
+    "dx": 0.15,
+    "dy": 0.1,
+    "click_requested": false,
+    "drag_requested": true,
+    "channel": "JOYSTICK_FALLBACK",
+    "witness": "CONSISTENT_WITH_MODEL",
+    "stopped": false,
+    "epoch": 0,
+    "output_class": "DRY_RUN_PROPOSED_HID_ONLY"
+  },
+  "stop": {
+    "status": "STOPPED",
+    "epoch": 1
+  },
+  "effect_after_stop": {
+    "dx": 0,
+    "dy": 0,
+    "click_requested": false,
+    "drag_requested": false,
+    "channel": "STOPPED",
+    "witness": "NO_EFFECT",
+    "stopped": true,
+    "epoch": 1,
+    "output_class": "DRY_RUN_PROPOSED_HID_ONLY"
+  },
+  "robot_backup_proposal": {
+    "joint": 1,
+    "effect": "NONE",
+    "actuation": "NOT_IMPLEMENTED",
+    "status": "PROPOSED_NOT_SENT",
+    "route": "BACKUP",
+    "target": 0.35,
+    "epoch": 0
+  },
+  "scope": "NO PHYSICAL OR OPERATING SYSTEM EFFECTS"
+}
